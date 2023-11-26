@@ -1,0 +1,433 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+    scroll-behavior: smooth;
+}
+header {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    height: 1000px;
+    background: url(https://www.psgacademyusa.com/wp-content/uploads/2020/04/flag-blue-zoom.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 100px;
+    background: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 30px;
+    color: #004170;
+    font-weight: 700;
+    border-bottom: 2px solid #004170;
+}
+.navbar a {
+    text-decoration: none;
+    color: #004170;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 70px;
+    border-bottom: 1px solid #004170 ;
+}
+.Loginn a {
+    text-decoration: none;
+    color: #004170;
+    font-size: 20px;
+    font-weight: 600;
+    border: solid 2px #004170;
+    margin-left: 700px;
+}
+img {
+    width: 1400px;
+    height: 750px;
+    margin-left: 450px; 
+}
+.right img {
+    margin-top: -800px;
+    border: solid white 2px;
+}
+.left h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+.left p {
+    font-size: 18px;
+    margin-left: 70px;
+}
+.PM img {
+    height: 200px;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border: solid white 2px;
+}
+.classement img {
+    height: 200px;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border: solid white 2px;
+}
+.maillotM img {
+    height: 200px;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 50px;
+    border: solid white 2px;
+}
+.left {
+    margin-top: 70px;
+    text-decoration: none;
+    color: white;
+    font-size: 7px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.blanc {
+    background-color: gainsboro;
+    height: 125px;
+    width: 100%;
+    text-align: center;
+}
+.titre {
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 30px;
+    color: #004170;
+    font-family: century;
+}
+.fond2 img {
+    margin-left: 0px;
+    width: 100%;
+    height: 1600px;
+}
+.joueurs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -1600px;
+}
+.joueur1 img {
+    height: 300px;
+    width: 200px;
+}
+.joueur2 img {
+    height: 300px;
+    width: 200px;
+}
+.joueur3 img {
+    height: 300px;
+    width: 200px;
+}
+.joueur4 img {
+    height: 300px;
+    width: 200px;
+}
+.joueur5 img {
+    height: 300px;
+    width: 200px;
+}
+.joueur6 img {
+    height: 300px;
+    width: 200px;
+}
+.joueur7 img {
+    height: 300px;
+    width: 200px;
+}
+.joueur8 img {
+    height: 300px;
+    width: 200px;
+}
+.joueur9 img {
+    height: 300px;
+    width: 200px;
+}
+.joueur10 img {
+    height: 300px;
+    width: 200px;
+}
+.joueur11 img {
+    height: 300px;
+    width: 200px;
+    margin-left: -530px;
+}
+.blanc2 {
+    background-color: gainsboro;
+    height: 130px;
+    width: 100%;
+    text-align: center;
+}
+.titre2 {
+    font-size: 50px;
+    padding-top: 35px;
+    margin-top: 80px;
+    color: #004170;
+    font-family: century;
+}
+.Dom {
+    color: #004170;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.Ext {
+    color: #004170;
+    margin-left: 350px;
+    margin-top: 100px;
+    font-size: 40px;
+}
+.maillots {
+    display: flex;
+    flex-wrap: wrap;
+}
+.maillot1 img {
+    height: 250px;
+    width: 300px;
+    margin-left: 100px;
+}
+.maillot2 img {
+    height: 250px;
+    width: 250px;
+    margin-left: 110px;
+}
+.blanc3 {
+    background-color: gainsboro;
+    height: 125px;
+    width: 100%;
+    text-align: center;
+}
+.titre3 {
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 30px;
+    color: #004170;
+    font-family: century;
+}
+.Stadee {
+    background-color: #004170;
+}
+.imgp img {
+    margin-left: 0px;
+    margin-top: -726px;
+}
+.Tparc {
+    color: white;
+    text-align: end;
+    margin-right: 30px;
+    margin-top: 40px;
+    font-size: 13px;
+}
+.Tparc p {
+    margin-top: 200px;
+    margin-right: -10px;
+    font-size: 17px;
+}
+.Tparc .text2 {
+    margin-right: 150px;
+    font-size: 17px;
+    margin-right: 160px;
+}
+.Tparc .text3 {
+    margin-right: 150px;
+    font-size: 17px;
+    margin-right: 140px;
+}
+.blanc4 {
+    background-color: gainsboro;
+    height: 125px;
+    width: 100%;
+    text-align: center;
+}
+.titre4 {
+    font-size: 50px;
+    margin-top: -3px;
+    padding-top: 30px;
+    color: #004170;
+    font-family: century;
+}
+.UltrasP {
+    display: flex;
+    justify-content: space-between;
+}
+.Ultras1 img {
+    height: 300px;
+    width: 500px;
+    margin-left: 0px;
+    margin-top: -262px;
+}
+.Ultras2 img {
+    height: 300px;
+    width: 500px;
+    margin-top: -262px;
+}
+.Tultras .utext1{
+    color: #004170;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.Tultras .utext2{
+    color: #004170;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+.Tultras .utext3{
+    color: #004170;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px){
+    .navbar a {
+        font-size: 10px;
+        margin-left: 0;
+    }
+    .logo {
+        border-bottom: 0px ;
+        margin-left: -90px;
+        font-size: 14px;
+        margin-top: -15px;
+    }
+    .blanc {
+        width: 100%;
+        height: 200px;
+        margin-top: -100px;
+    }
+    .blanc2 {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+    img {
+        width: 450px;
+        height: 250px;
+        margin-left: 150px;
+    }
+    .blanc3 {
+        width: 100%;
+    }
+    .blanc4 {
+        width: 100%;
+    }
+    .Dom {
+        margin-left: 0;
+    }
+    .Ext {
+        margin-left: 0;
+    }
+    header {
+        height: 50px;
+    }
+    .left p {
+        font-size: 15px;
+        margin-right: 90px;
+        margin-top: 30px;
+    }
+    .left h1 {
+        font-size: 20px;
+    }
+    .left {
+        text-align: center; 
+        margin-bottom: 150px;
+    }
+    .PM img {
+        height: 150px;
+        width: 250px;
+        margin-right: 45px;
+    }
+    .classement img {
+        height: 150px;
+        width: 250px;
+        margin-right: 45px;
+    }
+    .maillotM img {
+        height: 150px;
+        width: 250px;
+        margin-right: 45px;
+    }
+    .Tparc h1 {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 30px;
+    }
+    .Tparc p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    .Tparc .text2 {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .Tparc .text3 {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .imgp img {
+        height: 200px;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .UltrasP {
+        display: flex;
+        flex-direction: column;
+    }
+    .right img {
+        display: none;
+    }
+    .Ultras1 img {
+        display: none;
+    }
+    .Ultras2 img {
+        height: 250px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    body {
+        width: 100%;
+    }
+    .Loginn a {
+        font-size: 15px;
+        margin-left: 100px;
+    }
+}
